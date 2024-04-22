@@ -36,4 +36,4 @@ const Headermain = () => {
   )
 }
 
-export default Headermain
+export default Headermain;
