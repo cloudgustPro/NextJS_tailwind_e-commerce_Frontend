@@ -3,6 +3,10 @@ import "./globals.css";
 import HeaderTop from "@/Components/HeaderTop";
 import Headermain from "@/Components/Headermain";
 import Navbar from "@/Components/Navbar";
+import MobNavbar from "@/Components/MobNavbar";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +22,7 @@ export default function RootLayout({ children }) {
         <HeaderTop/>
         <Headermain/>
         <Navbar />
+        <MobNavbar />
         {children}
         </body>
     </html>
